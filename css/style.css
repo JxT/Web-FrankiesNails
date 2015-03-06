@@ -1,0 +1,195 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}
+
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,500);
+
+body { font-family: "Source Sans Pro"; font-weight:200;}
+#noborder { border: 0; }
+
+/* Nav */
+header { width:100%; position:fixed; z-index: 99; height:50px; padding-top: 10px; background: rgb(230,105,150);}
+nav {width: 1000px; margin: 0 auto;}
+header .logo { float:left; padding-top:2px; padding-left:0;}
+header .logo img { height:35px; }
+header nav a { font-size: 17px; font-weight:500; color: rgb(255,255,255); float:right; text-decoration:none; padding:15px 0 0 30px ; text-transform:uppercase; letter-spacing:2px}
+header nav a:hover { color:rgb(244, 217, 226); }
+
+/* Container */
+.container { padding-top:100px; min-height: 500px; text-align: center;}
+
+/* Homepage */
+.home section {padding-top:0;}
+.home section img {width:620px; float:right;position:absolute;}
+.home section p {padding-bottom: 20px;}
+.home .button a{ padding: 5px 8px; width:inherit; font-size: 26px; margin-right:5px; margin-top:6px;}
+
+/* Contact */
+.contact {padding-top:100px;}
+h5 { font-size: 32px; color: rgb(149, 149, 149); margin-bottom: 40px; padding-bottom:40px; border-bottom: 1px solid rgb(200,200,200);}
+h5 a { text-decoration: none; color: rgb(62, 181, 196);}
+h5 a:hover { color: rgb(153, 220, 229);}
+
+/* About me */
+.about {padding-top: 70px; }
+.about .content {padding-top: 20px; }
+.about .content h2, .about h2 { font-size: 32px; color: rgb(149, 149, 149); padding-bottom:30px;}
+.about .content h3 { font-size: 24px; color: rgb(114, 114, 114); margin-top: 30px; margin-bottom: 10px; font-weight:400; }
+.about .content li { font-size: 20px; color: rgb(114, 114, 114); list-style: disc; line-height: 18px; margin-left: 15px; font-weight:300; }
+
+
+/* Section */
+section { width: 1000px; padding-top: 50px; display: inline-block; text-align: left;}
+section h1 { font-size: 42px; color: rgb(230, 105, 150); font-weight: 400;}
+section p { font-size: 32px; color: rgb(180, 180, 180); padding-top: 5px;}
+section aside { float:left; padding-top:100px; }
+.button a{
+    color: rgb(255,255,255);
+    padding: 10px 2px;
+    background: rgb(168, 168, 168);
+    width: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.button a:hover{
+    background: rgb(230, 105, 150);
+}
+/* Content */
+.content {border-top: 1px solid rgb(230, 105, 150);padding-top: 40px;margin-top: 15px;}
+.content h1 { color: rgb(170, 170, 170); width: 500px; font-size:30px; margin-top: 40px; border-bottom: 1px solid rgb(199, 199, 199); padding-bottom: 5px;}
+.content h2 { font-size: 32px; color: rgb(230, 105, 150); font-weight: 400;}
+.content h3 { font-size: 24px; color: rgb(199, 199, 199); font-weight: 400;}
+.content h4 { font-size: 24px; color: rgb(199, 199, 199); font-weight: 400;}
+.content ul { background: rgb(255,255,255); padding-top: 20px;}
+.content li { list-style: square; font-size: 23px; margin-left: 30px; padding-bottom: 20px; line-height: 27px;}
+.content img{float: right; width: 350px}
+.highlight { background:rgb(230, 105, 150); padding: 20px; margin-top: 20px; color: rgb(255,255,255);}
+.highlight h1, .highlight h2, .highlight h3, .highlight h4 {color: rgb(255,255,255);}
+.highlight h2 { padding-bottom: 20px;}
+.highlight h3 { padding: 0 20px;}
+.highlight h4 { padding-top: 10px;}
+.highlight span { font-size: 25px; margin: 0 0 10px 20px; display:inline-block;}
+.opaque { opacity: 0.7; }
+
+/* Footer */
+footer { padding-top: 25px; width: 100%; margin-top:34px;}
+footer div {width: 1000px; height: 45px; margin: 0 auto;}
+
+/* Page title */
+header.title {margin-top: 60px; background: rgb(240,240,240); }
+header.title h1 { width: 1000px; margin: 0 auto; font-size: 42px; color:rgb(160,160,160); font-weight: 500;  }
+header.title nav h1 a{width: auto; margin: 0 auto; float:left; padding: 0; font-size: 42px; color:rgb(160,160,160); font-weight:500; text-transform: none; letter-spacing: normal;}
+header.title nav a { color: rgb(100,100,100);}
+header.title nav a:hover { color:rgb(190, 190, 190); }
+
+/* Price lists */
+article {
+    display: inline-block;
+    float:left;
+}
+
+article h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* Table styling */
+table a:link {
+	color: #666;
+	font-weight: bold;
+	text-decoration:none;
+}
+table a:visited {
+	color: #999999;
+	font-weight:bold;
+	text-decoration:none;
+}
+table a:active,
+table a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+table {
+    font-weight:400;
+	color:#666;
+	font-size:15px;
+    margin-right: 40px;
+	border:#ccc 1px solid;
+    border-spacing: 0;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+
+table.end {
+    margin: 0;
+}
+
+table th {
+    text-transform: uppercase;
+    font-weight: 600;
+	padding:11px 25px 12px 25px;
+	border-bottom:1px solid #e0e0e0;
+	background: rgb(230, 230, 230);
+	border-left: 1px solid #d1d1d1;
+}
+table th:first-child {
+	text-align: left;
+	padding-left:20px;
+    border-left: 0;
+}
+table tr:first-child th:first-child {
+	-moz-border-radius-topleft:2px;
+	-webkit-border-top-left-radius:2px;
+	border-top-left-radius:2px;
+}
+table tr:first-child th:last-child {
+	-moz-border-radius-topright:2px;
+	-webkit-border-top-right-radius:2px;
+	border-top-right-radius:2px;
+}
+table tr {
+	text-align: center;
+	padding-left:20px;
+}
+table td:first-child {
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+table td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr:last-child td {
+	border-bottom:0;
+}
+table tr:last-child td:first-child {
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child {
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+table tr:hover td {
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
